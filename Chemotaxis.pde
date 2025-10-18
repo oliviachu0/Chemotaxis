@@ -7,7 +7,7 @@ int x, y;
  {     
    //initialize bacteria variables here   
 
-   size(800, 800);
+   size(600, 600);
    bob = new Bacteria[7];
    for(int i = 0; i < bob.length; i++){
      bob[i] = new Bacteria(color(255, 0, 0), (int)(Math.random()*400 + 200), (int)(Math.random()*400 + 200));
